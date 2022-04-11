@@ -1,0 +1,46 @@
+#firstExercise{
+
+	border: 2px solid black;
+	padding: 15px;
+}
+
+#calc{
+	margin-left: 7%;
+}
+
+#operators{
+	margin-left: 6%;
+}
+
+.container{
+	margin-bottom: 7%;
+	margin-left: 40%;
+}
+#showNum{
+	margin-left: 20%;
+}
+#upper, #lower, #chars, #spaces {
+	width: 150px;
+	margin-left: 15px;
+}
+
+#good, #bad{
+  display: inline;
+  max-width: 200px;
+  margin: 0 ;
+  padding: 0;
+
+}
+#lucky{
+	margin-left: 13%;
+	width:150px;
+}
+
+#gbHeader{
+	margin-left: 10%;
+}
+
+
+
+
+
