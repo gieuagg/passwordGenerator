@@ -10,9 +10,40 @@
     <script type="text/javascript" src="js/javascript.js"></script>
     <title>Password Generator</title>
 </head>
-
 <body>
 
+  <div class="container">
+    <div class="row">
+      <div class="grid">
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Generate a </h2>
+                <h2 class="card-title" id="secLine">random password</h2>
+              <h6 class="card-subtitle mb-2" id="subTitle">Never use an insecure password!</h6>
+              <label for="passLength" id="incrLength">Password length:</label>
+              <input type="text" id="passLength" placeholder="8">
+              <button class="btn btn-light" onclick="generatePassword()">Generate Password</button>
+              <hr>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                     <label id="suggestion1"> </label>
+                     <label id="suggestion2"> </label>
+                     </div></div>
+                     <div class="row">
+                      <div class="col">
+                     <label id="suggestion3"> </label>
+                     <label id="suggestion4"> </label>
+                  </div>
+                 </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

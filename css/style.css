@@ -1,46 +1,74 @@
-#firstExercise{
-
-	border: 2px solid black;
-	padding: 15px;
+body{
+	font: normal normal normal 16px/1 FontAwesome;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.card{
+	height:500px;
+	width: 500px;
+	background-color: darkslategrey;
+	color: aliceblue;
+	padding-left: 10%;
+	padding-top: 15%;
+	margin-top: 15%;
+	margin-left: 80% ;
+	box-shadow: 5px 10px;
+}
+#secLine{
+	color:lightgreen;
+}
+.card-subtitle{
+	padding-top: 1%;
+	padding-bottom: 10%;
 }
 
-#calc{
-	margin-left: 7%;
-}
-
-#operators{
-	margin-left: 6%;
-}
-
-.container{
-	margin-bottom: 7%;
-	margin-left: 40%;
-}
-#showNum{
-	margin-left: 20%;
-}
-#upper, #lower, #chars, #spaces {
-	width: 150px;
-	margin-left: 15px;
-}
-
-#good, #bad{
-  display: inline;
-  max-width: 200px;
-  margin: 0 ;
-  padding: 0;
+button{
+	color:aliceblue !important;
+	background-color: green !important;
+	border:none !important;
+	border-radius: 15%;
+	margin-left: 40px;
 
 }
-#lucky{
-	margin-left: 13%;
-	width:150px;
+#subTitle{
+	font-size: 0.9em;
+}
+button:hover{
+	background-color: #000;
+	/*  Making button bigger on hover  */
+	  transform: scale(1.1) perspective(1px)
+	  }
+hr{
+	margin-top: 10%;
 }
 
-#gbHeader{
-	margin-left: 10%;
+label{
+	border: 1px solid whitesmoke;
+	width: 40%;
+	height: 30px;
+	margin-left: 10px;
+	margin-top:  10px;
+	text-align: center;
+	border-radius: 5%;
 }
 
+#passLength{
+	width:50px;
+	padding-left: 10px;
+	margin-right: 0;
+	background-color:darkseagreen;
+	
+}
 
+#incrLength{
+	margin-right: 0px !important;
+	margin-left: 0px;
+	padding: 1px !important;
+	border: none;
+	width: 140px;
+}
 
-
-
+#passLength:active{
+	border:none;
+}
